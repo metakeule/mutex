@@ -1,9 +1,3 @@
-# mutex
-provide a debuggable wrapper around sync/mutex
-
-## Example
-
-```go
 package main
 
 import (
@@ -32,6 +26,3 @@ func aFunc(t *tester) {
 	t.RUnlock()
 	fmt.Printf("sth: %v\n", sth)
 }
-
-
-```
